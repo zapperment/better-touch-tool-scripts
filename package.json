@@ -2,8 +2,16 @@
   "name": "better-touch-tool-scripts",
   "packageManager": "yarn@3.4.1",
   "version": "0.0.1",
-  "source": "src/getScreenWindowDisplayInfo.mjs",
-  "main": "dist/getScreenWindowDisplayInfo.js",
+  "targets": {
+    "getScreenWindowDisplayInfo": {
+      "source": "src/getScreenWindowDisplayInfo.mjs",
+      "distDir": "dist"
+    },
+    "toggleWinMax": {
+      "source": "src/toggleWinMax.mjs",
+      "distDir": "dist"
+    }
+  },
   "scripts": {
     "build": "parcel build"
   },
