@@ -11,10 +11,6 @@ import getWindowAndDesktopInfo from "./lib/getWindowAndDesktopInfo.mjs";
 import logError from "./lib/logError.mjs";
 import getFocusedScreenInfo from "./lib/getFocusedScreenInfo.mjs";
 
-// --------------------
-// COPY CODE BELOW THIS
-// --------------------
-
 function getByLabel(displays, label) {
   return displays.find((display) => display.label === label);
 }

@@ -1,3 +1,5 @@
+import{nickNames} from "./config.mjs";
+
 function parsePixels({ _spdisplays_pixels, _spdisplays_resolution }) {
   let width, height;
   const regex = /^(\d+) x (\d+)/;
@@ -16,11 +18,6 @@ function parsePixels({ _spdisplays_pixels, _spdisplays_resolution }) {
 }
 
 export default async function getDisplaysInfo() {
-  const nickNames = {
-    "DELL U3419W": "dell",
-    "Color LCD": "hinkel",
-    "Sidecar Display": "ipad",
-  };
 
   const displayDataString = await runShellScript({
     script: "system_profiler SPDisplaysDataType -json",
