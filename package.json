@@ -1,7 +1,14 @@
 {
   "name": "better-touch-tool-scripts",
   "packageManager": "yarn@3.4.1",
+  "version": "0.0.1",
+  "source": "src/getScreenWindowDisplayInfo.mjs",
+  "main": "dist/getScreenWindowDisplayInfo.js",
+  "scripts": {
+    "build": "parcel build"
+  },
   "devDependencies": {
+    "parcel": "^2.8.3",
     "prettier": "^2.8.3"
   }
 }
