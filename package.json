@@ -1,0 +1,7 @@
+{
+  "name": "better-touch-tool-scripts",
+  "packageManager": "yarn@3.4.1",
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  }
+}
