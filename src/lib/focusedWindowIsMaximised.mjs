@@ -1,4 +1,4 @@
-import getFocusedScreenInfo from "./getFocusedScreenInfoWithBttApi.mjs";
+import getFocusedScreenInfo from "./getFocusedScreenInfo.mjs";
 import getMenuBarHeight from "./getMenuBarHeight.mjs";
 import { stageManagerMarginWidth } from "./config.mjs";
 import getFocusedWindowInfo from "./getFocusedWindowInfo.mjs";

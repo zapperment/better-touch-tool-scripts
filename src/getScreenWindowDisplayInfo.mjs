@@ -9,7 +9,7 @@ import "./lib/setupMocks.mjs";
 import getDisplaysInfo from "./lib/getDisplaysInfo.mjs";
 import getWindowAndDesktopInfo from "./lib/getWindowAndDesktopInfo.mjs";
 import logError from "./lib/logError.mjs";
-import getFocusedScreenInfo from "./lib/getFocusedScreenInfoWithBttApi.mjs";
+import getFocusedScreenInfo from "./lib/getFocusedScreenInfo.mjs";
 
 function getByLabel(displays, label) {
   return displays.find((display) => display.label === label);

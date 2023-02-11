@@ -4,7 +4,7 @@
 
 import "./lib/setupMocks.mjs";
 import logError from "./lib/logError.mjs";
-import getFocusedScreenInfo from "./lib/getFocusedScreenInfoWithAppleScript.mjs";
+import getFocusedScreenInfo from "./lib/getFocusedScreenInfo.mjs";
 
 (async () => {
   let focusedScreenX, focusedScreenY, focusedScreenWidth, focusedScreenHeight;
