@@ -3,6 +3,10 @@
   "packageManager": "yarn@3.4.1",
   "version": "0.0.1",
   "targets": {
+    "getFocusedScreenInfo": {
+      "source": "src/getFocusedScreenInfo.mjs",
+      "distDir": "dist"
+    },
     "getScreenWindowDisplayInfo": {
       "source": "src/getScreenWindowDisplayInfo.mjs",
       "distDir": "dist"

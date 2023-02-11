@@ -6,7 +6,25 @@ if (process.env.NODE_ENV !== "production") {
   function BTTLog(message) {
     console.log(message);
   }
-  async function callBTT() {}
+  async function callBTT(command, options) {
+    switch (command) {
+      case "get_number_variable":
+        switch (options.variable_name) {
+          case "focused_screen_x":
+            return 0;
+          case "focused_screen_y":
+            return 0;
+          case "focused_screen_width":
+            return 1920;
+          case "focused_screen_height":
+            return 1080;
+          default:
+            return -666;
+        }
+      default:
+        return -666;
+    }
+  }
 
   async function runAppleScript() {
     return "[2123,319,700,730,-573,0,3440,2557]";
